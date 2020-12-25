@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<manifest>
+<remote fetch="ssh://git@github.com:xychen417/7x9/" name="7x9"/>
+<default remote="7x9" revision="refs/heads/master" sync-j="4"/>
+ 
+<project name="buildroot" path="buildroot"/>
+<project name="kernel" path="kernel"/>
+<project name="buildroot_dl" path="buildroot_dl" />
+<project name="toolchains" path="toolchains" />
+<project name="tools" path="tools"/>
+<project name="validation-tests" path="validation-tests" />
+<project name="stglib" path="stglib" />
+<project name="u-boot" path="u-boot" />
+<project name="a2-flasher" path="a2-flasher" />
+<project name="staudiolib" path="staudiolib" />
+<project name="loader" path="loader" />
+<project name="uclibc" path="uclibc" />
+<project name="yuantel" path="yuantel" />
+
