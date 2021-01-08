@@ -1,8 +1,8 @@
 <?xml version="1.0" ?>
 <manifest>
   <remote  name="origin" fetch="ssh://git@github.com"/>
-  <default remote="origin" sync-j="1" />
+  <default remote="origin" revision="refs/tags/tag_v1.3" sync-j="1" />
 
-  <project name="xychen417/submd" revision="master" path="submd"/>
-  <project name="xychen417/submd2" revision="master" path="submd2"/>
+  <project name="xychen417/submd" path="submd"/>
+  <project name="xychen417/submd2" path="submd2"/>
 </manifest>
